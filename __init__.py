@@ -1,1 +1,2 @@
-print("I AM NOT USELESS!")
+def run(ui):
+  print("I AM NOT USELESS!")

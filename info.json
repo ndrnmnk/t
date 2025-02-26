@@ -3,6 +3,6 @@
   "img_url": "https://cdn2.hubspot.net/hubfs/53/image8-2.jpg",
   "git_link": "https://github.com/ndrnmnk/t",
   "version": 1.0,
-  "categories": "Others",
+  "categories": ["Others"],
   "has_options": false
 }

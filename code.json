@@ -1,0 +1,10 @@
+{
+  "on_launch": {
+    "dependencies": [],
+    "code": "\nint main() {\n$snap0$return 0;}"
+  },
+  "print_$text$": {
+    "dependencies": ["iostream"],
+    "code": "std::cout << $content0$ << std::endl;\n$snap0$"
+  }
+}

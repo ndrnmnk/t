@@ -1,10 +1,22 @@
 {
   "on_launch": {
-    "dependencies": [],
-    "code": "\nint main() {\n$snap0$return 0;}"
+    "deps": [],
+    "code": "int main() {\n$snap0$return 0;\n}"
   },
-  "print_$text$": {
-    "dependencies": ["iostream"],
+  "print": {
+    "deps": ["iostream"],
     "code": "std::cout << $content0$ << std::endl;\n$snap0$"
+  },
+  "if": {
+    "deps": [],
+    "code": "if ($content0$) {\n$snap0$}\n$snap1$"
+  },
+  "set_variable": {
+    "deps": [],
+    "code": "$content0$ = $content1$;\n$snap0$"
+  },
+  "define_variable": {
+    "deps": [],
+    "code": "~ $content0$;\n$snap0$"
   }
 }
